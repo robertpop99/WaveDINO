@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# WaveDINO: data, outputs and generated job scripts
+datasets/
+results/
+logs/
+out/
+jobs/
+timeseries/
+submit_all*.sh
+.idea/
+
+# pretrained latent-diffusion autoencoder for the diffusion baseline (download, see README)
+models/latent_diffusion/first_stage_models/*/model.ckpt
+models/latent_diffusion/first_stage_models/*/model.zip
